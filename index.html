@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="Assets/styles.css">
+    <title>My First Blog</title>
+</head>
+<body class="formStyle" id="body">
+    <nav class="navBar">
+        <h1>C | B</h1>
+        <h1>My First Blog</h1>
+        <i class="fas fa-cloud-moon" id="themeToggle"></i>
+    </nav>
+    <div style="padding-top: 75px;" class="formContainer">
+        <div class="card">
+            <h2>Sign Up</h2>
+            <form id="submitForm" method="POST">
+                <div class="input-group">
+                    <label for="first-name">Username</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Username" required />
+                </div>
+                <div class="input-group">
+                    <label for="last-name">Title</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Title" required />
+                </div>
+                <div class="input-group">
+                    <label for="email">Content</label>
+                    <input type="text" name="email" id="email" placeholder="Content" required />
+                </div>
+                <button class="submitButton" type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="Assets/script.js"></script>
+</body>
+</html>
