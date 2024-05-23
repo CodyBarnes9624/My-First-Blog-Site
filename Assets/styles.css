@@ -103,7 +103,16 @@ h1 {
     left: 25px;
 }
 
+.dark-mode {
+    background-color: #2C3E50; 
+    color: #ECF0F1; 
+}
 
+.dark-mode .navBar {
+    background-color: #FFFFFF; 
+    color: #34495E;
+    border: 1px solid #2C3E50; 
+}
 
 body.blogsStyle {
     position: relative;
@@ -125,7 +134,9 @@ body.blogsStyle.dark-mode {
     background-color: #34495E;
 }
 
-
+.dark-mode .card {
+    color: #34495E;
+}
 
 footer {
     background-color: #2C3E50;
@@ -135,7 +146,14 @@ footer {
     margin-top: auto;
 }
 
-
+.dark-mode footer {
+    background-color: #ECF0F1;
+    color: #34495E;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
 
 ul {
     list-style-type: none;

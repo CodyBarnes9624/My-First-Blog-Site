@@ -4,7 +4,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const themeToggle = document.getElementById('themeToggle');
     const body = document.getElementById('body');
 
+    function toggleDarkMode() {
+        body.classList.toggle('dark-mode');
+    }
 
+    if (themeToggle) {
+        themeToggle.addEventListener('click', toggleDarkMode);
+    }
 
     if (submitForm) {
         submitForm.addEventListener('submit', function(event) {
